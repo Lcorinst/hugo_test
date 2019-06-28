@@ -13,9 +13,9 @@
 ## 目录结构
 
 ├─archetypes    
-├─content            # 页面存放位置         
-│  ├─post            # 新闻动态  
-│  └─staticpage      # 其他静态页面  
+├─content            # 页面存放位置	
+│  ├─post            # 新闻动态	
+│  └─staticpage      # 其他静态页面	
 ├─data  
 ├─layouts   
 ├─static        # 公共静态内容  
@@ -25,7 +25,7 @@
 	└─bootstrap         
 &emsp;├─archetypes    
 &emsp;├─layouts   #布局文件   
-&emsp; &emsp;├─partials       #页面公共内容   
+&emsp;├&emsp;├─partials       #页面公共内容   
 &emsp;│&emsp;├─shortcodes                     
 &emsp;│&emsp;├─staticpage     #静态页面布局   
 &emsp;│&emsp;└─_default       #新闻动态布局   
