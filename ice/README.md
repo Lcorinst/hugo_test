@@ -16,24 +16,24 @@
 ├─content       # 页面存放位置       
 │  ├─post       # 新闻动态  
 │  └─staticpage # 其他静态页面  
-├─data
-├─layouts
-├─static        # 公共静态内容
-│  ├─files      # 文件
-│  └─images     # 图片
-└─themes        # 网站主题
-    └─bootstrap
-        ├─archetypes
-        ├─layouts   # 布局文件
-        │  ├─partials   #页面公共容
-        │  ├─shortcodes
-        │  ├─staticpage # 静态页面布局
-        │  └─_default   #新闻动态布局
-        └─static        # 主题静态内容
-            ├─css
-            ├─fonts
-            ├─images
-            └─js
+├─data  
+├─layouts   
+├─static        # 公共静态内容  
+│  ├─files      # 文件  
+│  └─images     # 图片  
+└─themes        # 网站主题  
+    └─bootstrap 
+        ├─archetypes    
+        ├─layouts           #布局文件   
+        │  ├─partials       #页面公共容 
+        │  ├─shortcodes 
+        │  ├─staticpage     #静态页面布局   
+        │  └─_default       #新闻动态布局   
+        └─static            #主题静态内容   
+            ├─css   
+            ├─fonts 
+            ├─images    
+            └─js    
 
 ## 添加内容
 
