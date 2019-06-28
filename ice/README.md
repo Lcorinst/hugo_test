@@ -25,7 +25,7 @@
     └─bootstrap 
         ├─archetypes    
         ├─layouts           #布局文件   
-        │  ├─partials       #页面公共容 
+        │  ├─partials       #页面公共内容 
         │  ├─shortcodes 
         │  ├─staticpage     #静态页面布局   
         │  └─_default       #新闻动态布局   
