@@ -1,0 +1,247 @@
+/*全局样式*/
+*{
+	font-family:"微软雅黑";	/*字体设置*/
+}
+a:link,active,hovor,visited{
+	text-decoration: none;	/*取消链接下划线*/
+}
+body{
+	background: url(../images/background.gif) fixed center center; /*网页背景图片设置*/
+}
+
+.navbar-default {
+  background-color: #325c92;
+  border-color: #2a4c79;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #aaaaaa;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #aaaaaa;
+  background-color: #2a4c79;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #aaaaaa;
+  background-color: #2a4c79;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2a4c79;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2a4c79;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #aaaaaa;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #aaaaaa;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #aaaaaa;
+    background-color: #2a4c79;
+  }
+}
+/*三级导航*/
+.marginBottom-0 {margin-bottom:0;}
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#555;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+/*一级导航样式*/
+nav ul{
+	font-weight: 500;	/*字体粗细*/
+	font-size: 20px;	/*字体大小*/
+}
+/*二级，三级菜单样式*/
+.dropdown-menu>li>a{
+	font-size: 16px;
+}
+.navbar {
+    border-radius: 0px;	/*去掉导航的圆角(bootstrap引入)*/
+}
+@media (min-width: 1200px) { 
+	.navbar-default {
+		min-height: 75px;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 75px;
+	}
+ }
+
+
+/*引用*/
+blockquote{
+	padding-top: 0;
+}
+/*屏幕分辨率大于1200*/
+@media (min-width: 1200px){
+	.container {
+    	width: 1000px;	/*主体部分宽度最大1000px;*/
+	}
+}
+/*屏幕分辨路小于768px时（适用于平板和手机访问）*/
+@media (max-width: 768px){
+	#logo{
+		display: none;	/*隐藏logo图片*/
+	}
+}
+/**/
+#logo>a{
+    color:#000;
+    height:66px;
+    padding-top:45px;
+}
+
+
+/*去掉无序列表前面小圆点*/
+ul{
+	list-style-type:none;
+}
+
+/*全局链接颜色*/
+a:link{
+	color: #262626;
+}
+a:hover{
+	color: #204e8a;
+}
+a:visited{
+	color: purple;
+}
+.nav-tabs>li>a{
+	padding: 10px 5px;
+}
+/*新闻动态和重要公告列表样式*/
+@media (min-width: 992px){
+	.news-inform>li>span{
+	  float: right;   /*日期右浮*/
+	}
+	.news-inform>li{
+	  	line-height: 36px;
+	}
+	.news-inform>li>a{
+	  font-size: 16px;
+	}
+}
+/*文字居中*/
+.text-center{
+	text-align: center;
+}
+/*文章段落样式*/
+.article p{
+	text-indent: 2em;
+	line-height: 35px;  /*行距设置*/
+    margin: 24px 0;     /*段落间距设置*/
+}
+.article img{
+	display: block;
+ 	margin:auto;
+ 	max-width: 100%;
+    height: auto;
+}
+
+.common-list li{
+	line-height: 28px; /*行距设置*/
+}
+.common-list p{
+	line-height: 2rem;
+}
+.common-list ul{
+	padding-left: 8px;
+}
+@media (min-width: 992px){
+	.common-list .paragraph{
+		margin-left: -30px;
+	}
+}
+/*师资队伍 列表样式*/
+.file-list ul{
+	padding-left: 10px;
+}
+.file-list li{
+	line-height: 32px; /*行距设置*/
+}
+.file-list li::before{
+	content: "◆ ";
+}
+/*师资队伍 研究方向*/
+.research-dir{
+	padding-left: 16px;
+}
+
+/*表格文字垂直居中*/
+.table tbody>tr>td.vert-align{
+  	vertical-align: middle; /*表格文字垂直居中*/
+}
+
+.standard-margin{
+	margin: 16px;
+}
+
+.inline-block{
+	display: inline-block;
+}
+/*带图的列表（师资队伍/学生感言）*/
+.img-top-line{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-top: 1px solid #ddd;
+}
+
+/*字体放大*/
+.font-larger{
+	font-size: larger;
+}
+/*footer样式*/
+footer{
+	background: #325c92;
+	color: #FFF;
+}
+footer li p a:visited{
+	color: #FFF;
+}
+footer li p a:link{
+	color: #FFF;
+}

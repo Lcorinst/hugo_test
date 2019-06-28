@@ -1,0 +1,7 @@
+baseURL = "http://ice.dlut.edu.cn/ice/"
+languageCode = "en-us"
+title = "大连理工大学"
+
+theme = "bootstrap"
+uglyURLs = true
+paginate = 10

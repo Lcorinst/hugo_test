@@ -1,0 +1,65 @@
+{{ partial "header.html" . }}
+<div id="myCarousel" class="carousel slide">
+   <!-- 轮播（Carousel）指标 -->
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+   </ol>   
+   <!-- 轮播（Carousel）项目 -->
+   <div class="carousel-inner">
+      <div class="item active">
+         <img src="{{ .Site.BaseURL }}/images/img_1.png" alt="First slide">
+      </div>
+      <div class="item">
+         <img src="{{ .Site.BaseURL }}/images/img_2.png" alt="Second slide">
+      </div>
+      <div class="item">
+         <img src="{{ .Site.BaseURL }}/images/img_3.png" alt="Third slide">
+      </div>
+      <div class="item">
+         <img src="{{ .Site.BaseURL }}/images/img_4.png" alt="Second slide">
+      </div>
+      <div class="item">
+         <img src="{{ .Site.BaseURL }}/images/img_5.png" alt="Third slide">
+      </div>
+      <div class="item">
+        <img src="{{ .Site.BaseURL }}/images/img_6.png" alt="Third slide">
+     </div>
+     <div class="item">
+        <img src="{{ .Site.BaseURL }}/images/img_7.png" alt="Third slide">
+     </div>
+   </div>
+   <!-- 轮播（Carousel）导航 -->
+   <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+   <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+</div>
+<!--新闻动态-->
+<div class="row">
+  <div class="page-header subtitle">
+    <h3>
+      新闻动态
+      <a href="{{ .Site.BaseURL }}post.html"><small>更多</small></a>
+    </h3>
+  </div>
+  <blockquote>
+    <ul class="news-inform list-unstyled" id="inform">
+        {{ range first 5 .Data.Pages }}
+            {{ if eq .Type "post"}}
+                <li>
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+                    <span class="label label-primary">
+                        {{ .Date.Format "2006-01-02" }}
+                    </span>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+  </blockquote>
+</div>
+
+{{ partial "footer.html" . }}

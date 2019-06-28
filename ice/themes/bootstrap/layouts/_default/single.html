@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<article>
+    <div class="page-header subtitle">
+      <h3 class="text-center">
+          {{ .Title }}
+        <br/>
+        <small class="text-center">{{ .Date.Format "2006-01-02" }}</small>
+      </h3>
+    </div>
+    <blockquote class="article">
+      {{ .Content }}
+    </blockquote>
+</article>
+
+{{ partial "footer.html" . }}

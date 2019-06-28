@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+<div class="row">
+    <div class="page-header subtitle">
+        <h3>新闻动态</h3>
+    </div>
+    <blockquote>
+        <ul class="news-inform list-unstyled" id="inform">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+            {{ range $paginator.Pages }}
+                <li>
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+                    <span class="label label-primary">
+                        {{ .Date.Format "2006-01-02" }}
+                    </span>
+                </li>
+        {{ end }}
+        </ul>
+    </blockquote>
+</div>
+{{ template "_internal/pagination.html" . }}
+
+{{ partial "footer.html" . }}
