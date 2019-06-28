@@ -14,10 +14,10 @@
 
 ├─archetypes    
 ├─content            # 页面存放位置			
-│  ├─post            # 新闻动态	
-│  └─staticpage      # 其他静态页面	
-├─data  
-├─layouts   
+│  ├─post            # 新闻动态		
+│  └─staticpage      # 其他静态页面		
+├─data	
+├─layouts	
 ├─static        # 公共静态内容  
 │  ├─files      # 文件  
 │  └─images # 图片  
