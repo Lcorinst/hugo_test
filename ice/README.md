@@ -30,10 +30,9 @@
 &emsp;│&ensp;├─staticpage     #静态页面布局   
 &emsp;│&ensp;└─_default       #新闻动态布局   
 &emsp;└─static            #主题静态内容   
-			├─css   
-			├─fonts         
-			├─images    
-			└─js    
+&emsp;&emsp;├─css   
+&emsp;&emsp;├─fonts         
+&emsp;&emsp;└─js    
 
 ## 添加内容
 
