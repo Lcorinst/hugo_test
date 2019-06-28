@@ -13,11 +13,11 @@
 ## 目录结构
 
 ├─archetypes    
-├─content            # 页面存放位置			
-│  ├─post            # 新闻动态 		
-│  └─staticpage      # 其他静态页面				
-├─data	
-├─layouts	
+├─content            # 页面存放位置	<br>		
+│  ├─post            # 新闻动态 	<br>	
+│  └─staticpage      # 其他静态页面	<br>			
+├─data	<br>
+├─layouts	<br>
 ├─static        # 公共静态内容  
 │  ├─files      # 文件  
 │  └─images # 图片  
