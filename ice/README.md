@@ -13,18 +13,18 @@
 ## 目录结构
 
 ├─archetypes    
-├─content       # 页面存放位置       
-│  ├─post       # 新闻动态  
-│  └─staticpage # 其他静态页面  
+├─content       &emsp;&emsp;&emsp;# 页面存放位置       
+│  ├─post       &emsp;&emsp;&emsp;# 新闻动态  
+│  └─staticpage &emsp;&emsp;&emsp;# 其他静态页面  
 ├─data  
 ├─layouts   
-├─static        # 公共静态内容  
-│  ├─files      # 文件  
-│  └─images     # 图片  
-└─themes        # 网站主题  
+├─static        &emsp;&emsp;&emsp;# 公共静态内容  
+│  ├─files      &emsp;&emsp;# 文件  
+│  └─images     &emsp;&emsp;# 图片  
+└─themes        &emsp;&emsp;# 网站主题  
     └─bootstrap         
         ├─archetypes    
-        ├─layouts           #布局文件   
+        ├─layouts   &emsp;&emsp;#布局文件   
         │  ├─partials       #页面公共内容   
         │  ├─shortcodes                     
         │  ├─staticpage     #静态页面布局   
