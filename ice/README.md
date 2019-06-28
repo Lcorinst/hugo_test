@@ -25,10 +25,10 @@
 	└─bootstrap         
 &emsp;├─archetypes    
 &emsp;├─layouts   #布局文件   
-&emsp;├&emsp;├─partials       #页面公共内容   
-&emsp;│&emsp;├─shortcodes                     
-&emsp;│&emsp;├─staticpage     #静态页面布局   
-&emsp;│&emsp;└─_default       #新闻动态布局   
+&emsp;│&ensp;├─partials       #页面公共内容   
+&emsp;│&ensp;├─shortcodes                     
+&emsp;│&ensp;├─staticpage     #静态页面布局   
+&emsp;│&ensp;└─_default       #新闻动态布局   
 &emsp;└─static            #主题静态内容   
 			├─css   
 			├─fonts         
