@@ -22,11 +22,11 @@
 │  ├─files      # 文件  
 │  └─images     # 图片  
 └─themes        # 网站主题  
-    └─bootstrap 
+    └─bootstrap         
         ├─archetypes    
         ├─layouts           #布局文件   
-        │  ├─partials       #页面公共内容 
-        │  ├─shortcodes 
+        │  ├─partials       #页面公共内容   
+        │  ├─shortcodes                     
         │  ├─staticpage     #静态页面布局   
         │  └─_default       #新闻动态布局   
         └─static            #主题静态内容   
