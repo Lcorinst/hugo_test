@@ -23,7 +23,7 @@
 │  └─images # 图片  
 └─themes        # 网站主题  
 	└─bootstrap         
-		├─archetypes    
+&emsp;&emsp;├─archetypes    
 		├─layouts   #布局文件   
 		│  ├─partials       #页面公共内容   
 		│  ├─shortcodes                     
